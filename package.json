@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "serve -l 8080",
-    "build": "echo Static site — no build step"
+    "build": "node scripts/copy-static.js"
   },
   "devDependencies": {
     "serve": "^14.2.4"

@@ -35,8 +35,8 @@ This is a static site. Do **not** use `npm start` as the build command (that onl
 1. Push this repo to GitHub.
 2. On [Netlify](https://app.netlify.com): **Add new site → Import an existing project → GitHub → Upboard**.
 3. Build settings:
-   - **Build command:** leave empty, or `echo Static site — no build step`
-   - **Publish directory:** `.` (site root, not `dist` or `build`)
+   - **Build command:** `npm run build`
+   - **Publish directory:** `dist`
 4. Click **Deploy**.
 
 `netlify.toml` in the repo already sets these values. After deploy you get a URL like `https://something.netlify.app`.
