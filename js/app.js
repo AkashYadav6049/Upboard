@@ -22,6 +22,28 @@
       { id: "reasoning", label: "Reasoning" },
     ];
     app.innerHTML = `
+      <section class="hero">
+        <div>
+          <div class="kicker">Free · no app · no sign-up</div>
+          <h1>Quick games to sharpen your mind</h1>
+          <p class="lede">Twenty-three brain games and daily puzzles. Play in the browser, earn XP, and keep a streak going.</p>
+          <div class="pills">
+            <span class="pill">🆓 Free to play</span>
+            <span class="pill">🗓️ New puzzles daily</span>
+            <span class="pill">🏆 XP &amp; gems</span>
+            <span class="pill">📱 Phone &amp; desktop</span>
+          </div>
+        </div>
+        <aside class="hero-board">
+          <h3>Today on the desk</h3>
+          <div class="mini-games">
+            <div class="mini"><b>Word Guess</b>One 5-letter word, six tries.</div>
+            <div class="mini"><b>Math Sprint</b>Ten sums, forty-five seconds.</div>
+            <div class="mini"><b>Queens</b>Crowns that never touch.</div>
+            <div class="mini"><b>GK Quiz</b>Five questions, one round.</div>
+          </div>
+        </aside>
+      </section>
       <div class="section-head">
         <h2>All games</h2>
         <span>${UP.CATALOG.length} to play</span>

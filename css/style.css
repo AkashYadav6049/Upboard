@@ -154,7 +154,7 @@ img { max-width: 100%; }
 
 .section-head {
   display: flex; justify-content: space-between; align-items: end;
-  margin: 0 0 14px;
+  margin: 28px 0 14px;
 }
 .section-head h2 { font-family: var(--display); font-size: 22px; display: flex; align-items: center; gap: 8px; }
 .section-head span { color: var(--muted); font-size: 14px; }
