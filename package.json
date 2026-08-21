@@ -1,0 +1,10 @@
+{
+  "name": "upboard-playground",
+  "private": true,
+  "scripts": {
+    "start": "serve -l 8080"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

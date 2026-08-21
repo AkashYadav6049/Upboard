@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Upboard Playground — Quick brain games & daily puzzles</title>
+  <meta name="description" content="Free browser brain games: 2048, Sudoku, Word Guess, Connections, Math Sprint and more. No app, no sign-up." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect rx='16' width='64' height='64' fill='%230f7a63'/><text x='32' y='44' text-anchor='middle' font-size='36'>🎮</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#/" data-nav>
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-text">
+        <strong>Upboard</strong>
+        <em>Playground</em>
+      </span>
+    </a>
+    <div class="hud" id="hud">
+      <span class="hud-chip" title="Weekly XP"><i>⚡</i><b id="hud-xp">0</b> XP</span>
+      <span class="hud-chip" title="Gems"><i>💎</i><b id="hud-gems">0</b></span>
+      <span class="hud-chip" title="Daily streak"><i>🔥</i><b id="hud-streak">0</b></span>
+    </div>
+  </header>
+  <main id="app"></main>
+  <div id="toast" class="toast" hidden></div>
+  <script src="js/data.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/games-puzzle.js"></script>
+  <script src="js/games-word.js"></script>
+  <script src="js/games-quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
