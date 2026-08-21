@@ -28,19 +28,7 @@ Or double-click `start.bat` on Windows.
 - XP, gems and streak saved in this browser
 - Works on phone and desktop
 
-## Deploy on Netlify
-
-This is a static site. Do **not** use `npm start` as the build command (that only runs a local server).
-
-1. Push this repo to GitHub.
-2. On [Netlify](https://app.netlify.com): **Add new site → Import an existing project → GitHub → Upboard**.
-3. Build settings:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-4. Click **Deploy**.
-
-`netlify.toml` in the repo already sets these values. After deploy you get a URL like `https://something.netlify.app`.
-
+## GitHub
 
 **Short description (About box):**
 
