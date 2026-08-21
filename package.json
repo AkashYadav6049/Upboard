@@ -2,7 +2,8 @@
   "name": "upboard-playground",
   "private": true,
   "scripts": {
-    "start": "serve -l 8080"
+    "start": "serve -l 8080",
+    "build": "echo Static site — no build step"
   },
   "devDependencies": {
     "serve": "^14.2.4"
